@@ -18,6 +18,7 @@
     <option name="BRANCH" value="main/master" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="swaminathan &lt;easwaminath@gmail.com&gt;" />
@@ -108,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662780847122</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="inidial draft">
+      <created>1662805692046</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662805692046</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,7 +130,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main/master" />
+                        <option value="main/main" />
                       </list>
                     </value>
                   </entry>
