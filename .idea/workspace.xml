@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="058b9ac0-46ad-48de-adf4-407baaa99eb1" name="Changes" comment="inidial draft" />
+    <list default="true" id="058b9ac0-46ad-48de-adf4-407baaa99eb1" name="Changes" comment="inidial draft">
+      <change afterPath="$PROJECT_DIR$/Config/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,19 @@
     <option name="BRANCH" value="main/master" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -130,7 +146,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main/main" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
