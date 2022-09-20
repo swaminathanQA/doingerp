@@ -14,3 +14,7 @@ class BasePage():
 
     def do_send_keys(self, by_locator, text):
         element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(by_locator)).send_keys(text)
+
+    def get_browser_title(self, title):
+        browsertitle = WebDriverWait(self.driver, 10).until(EC.title_is("Sign In"))
+        return browsertitle
