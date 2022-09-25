@@ -8,6 +8,7 @@ class welcomePage(BasePage):
     SIGNIN_BUTTON = (By.XPATH, "(//button[normalize-space()='Sign In'])")
     ACCOUNT_NAME = (By.XPATH, "//img[@id='pt1:_UIScmil2u']")
     SIGN_OUT_LINK = (By.XPATH, "//a[@id='pt1:_UISlg1']")
+    CONFIRM_BUTTON = (By.XPATH, "(//button[@id='Confirm'])")
 
 
     def __int__(self, driver):

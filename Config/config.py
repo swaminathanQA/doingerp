@@ -1,6 +1,6 @@
 class TestData:
-    CHROME_EXECUTABLE_PATH = "drivers/chromedriver.exe"
-    FIREFOX_EXECUTABLE_PATH = "drivers/chromedriver.exe"
+    CHROME_EXECUTABLE_PATH = "./drivers/chromedriver.exe"
+    FIREFOX_EXECUTABLE_PATH = "./drivers/geckodriver.exe"
 
     BASE_URL1 = "https://fa-euth-dev58-saasfademo1.ds-fa.oraclepdemos.com/"
     USER_NAME1 = "Jessica.Butler"
@@ -21,4 +21,8 @@ class TestData:
     BASE_URL5 = "https://fa-esll-saasfademo1.ds-fa.oraclepdemos.com/"
     USER_NAME5 = "Megan.Byrne"
     PASSWORD5 = "Az!3o*79"
+
+    """  Data Driven """
+    xlrow = 11
+    xlpath = "resources/csv_files/DDF.xlsx"
 

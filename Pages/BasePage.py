@@ -18,3 +18,9 @@ class BasePage():
     def get_browser_title(self, title):
         browsertitle = WebDriverWait(self.driver, 10).until(EC.title_is("Sign In"))
         return browsertitle
+
+    def test_element_visibility(self, by_locator):
+        element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(by_locator))
+        return bool(element)
+
+

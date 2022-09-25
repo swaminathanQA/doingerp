@@ -10,6 +10,7 @@ class LoginPage(BasePage):
     EMAIL = (By.ID, "userid")
     PASSWORD = (By.ID, "password")
     SIGNIN_BUTTON = (By.XPATH, "(//button[normalize-space()='Sign In'])")
+    ERROR_AUTHENTICATION_FAILED = (By.ID, "error")
 
     def __int__(self, driver):
         super().__init__(driver)
