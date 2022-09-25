@@ -5,7 +5,7 @@ from selenium.webdriver.firefox.options import Options
 from Config.config import TestData
 
 
-@pytest.fixture(params=["chrome", "firefox"], scope='class')
+@pytest.fixture(params=["chrome"], scope='class')
 def init_driver(request):
     web_driver = None
 
